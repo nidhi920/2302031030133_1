@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Experiments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-color: #fff;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            display: none;
+            font-style: italic;
+            margin-top: 10px;
+            text-align: left;
+            padding: 0 10px;
+        }
+        .more-info {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .more-info:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="floatingfish.jpg" alt="Floating Fish">
+            <div class="title">Floating Fish</div>
+            <div class="description">
+                <p> Draw the outline of a fish on the bottom of a glass plate or tray in dry-erase marker.</p>
+                <p>  Retrace your drawing to ensure all lines are connected, then let it dry for a minute or two.</p>
+                <p>  Fill a measuring cup with tap water and pour it slowly into the dish, covering the bottom without splashing near the drawing.</p>
+                <p>  Observe as the water moves toward your drawing, eventually surrounding it.</p>
+                <p>  If the water splashes or the effect doesn’t work, empty the dish, erase the drawing, dry the dish, and try again.</p>
+                <p>  Tilt the dish slightly from side to side and jot down your observations.</p>
+                <p>  Dry erase ink is designed to be slippery, containing a chemical that makes it easily release from surfaces.</p>
+                <p>  Unlike permanent markers, dry erase ink is not soluble in water and is less dense, allowing it to float.</p>
+                <p>  When you tilt the dish, the fish moves around on the water’s surface.</p>
+                <p>  This experiment demonstrates the buoyancy and non-solubility properties of dry erase ink.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+        
+        <div class="card">
+            <img src="brush.jpg" alt="Brush, Brush!">
+            <div class="title">Brush, Brush!</div>
+            <div class="description">
+                <p>Write labels on sticky notes: Soda 1, Soda 2, Juice 1, and Juice 2, and place them in a row on a counter.</p>
+                <p>Fill two glasses halfway with brown soda and place them behind the Soda 1 and Soda 2 sticky notes.</p>
+                <p>Fill two glasses halfway with lemon juice and place them behind the Juice 1 and Juice 2 sticky notes.</p>
+                <p>Cover one egg with toothpaste, rubbing it until completely coated, and repeat with a second egg.</p>
+                <p>Submerge the toothpaste-covered eggs in the glasses labeled Soda 1 and Juice 1, and the remaining eggs in Soda 2 and Juice 2 glasses. Leave for 12 hours.</p>
+                <p>After 12 hours, remove the eggs from the glasses, rinse, and place each by its corresponding sticky note. Note any color differences.</p>
+                <p>Compare the strength of the eggs. The toothpaste-coated egg should be stronger, demonstrating how toothpaste protects enamel.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="solar.jpeg" alt="Solar Oven">
+            <div class="title">Solar Oven</div>
+            <div class="description">
+                <p>Teach kids about solar power and sustainability with a DIY backyard solar oven.</p>
+                <p>Use it for melting crayon ends into rainbow crayons instead of cooking for food safety.</p>
+                <p>Solar ovens can get very hot and are great for educational purposes.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="sun.jpeg" alt="Sunscreen Test">
+            <div class="title">Sunscreen Test</div>
+            <div class="description">
+                <p>Paint designs on construction paper with different sunscreens.</p>
+                <p>Leave papers in the sun and compare the results.</p>
+                <p>Display your conclusions on the fridge.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="marshmallaw.jpeg" alt="Marshmallow Catapult">
+            <div class="title">Marshmallow Catapult</div>
+            <div class="description">
+                <p>Explore potential and kinetic energy by launching mini marshmallows.</p>
+                <p>Change variables to see how they affect the marshmallow's path.</p>
+                <p>A fun way to learn about science and experimentation.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="mold.jpg" alt="Mold Science">
+            <div class="title">Mold Science</div>
+            <div class="description">
+                <p>Mold experiments are always grossly fascinating, and you can see how different additives (salt, vinegar, etc.) affect the growing of mold on bread. For a twist on this experiment that might lead to more hygienic habits, you can also see how mold grows on bread that's been touched by hands that have been washed with soap and water, cleansed with hand sanitizer or not washed at all. That'll get them scrubbing for 20 seconds. into 5 lines</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="pencil.jpg" alt="Pencils Through a Bag of Water">
+            <div class="title">Pencils Through a Bag of Water</div>
+            <div class="description">
+                <p>Kids might guess that if you pierce a bag of water with a sharpened pencil, the water would all leak out. In fact, if you do it right, the polymers of the bag's plastic will re-seal around the pencil, and your counters will stay dry (and your kids will be amazed). You can get them thinking about the chemical compositions that make up everyday items.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="ice.jpeg" alt="Sticky Ice">
+            <div class="title">Sticky Ice</div>
+            <div class="description">
+                <p>Challenge your little scientist to lift up an ice cube with just a piece of string. It's possible ... with a little salt to help. Salt melts the ice and lowers the freezing point of the ice cube, which absorbs the heat from the water around it, making the water cold enough to re-freeze around the string.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="lava.jpg" alt="Lava lamp">
+            <div class="title">Lava lamp</div>
+            <div class="description">
+                <p>Oil and water with food coloring don't mix, teaching kids about density. For fun, add an antacid tablet, and bubbles start to flow all around like a groovy lava lamp.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+
+        <div class="card">
+            <img src="gg.jpg" alt="Gravity-Defying Magnets">
+            <div class="title">Gravity-Defying Magnets</div>
+            <div class="description">
+                <p>This one will really get them into brushing their teeth once they scientifically prove all the good things that toothpaste can do.</p>
+            </div>
+            <button class="more-info" onclick="toggleDescription(this)">More Info</button>
+        </div>
+        
+    </div>
+
+    <script>
+        function toggleDescription(button) {
+            var card = button.parentNode;
+            var description = card.querySelector('.description');
+            if (description.style.display === "none" || description.style.display === "") {
+                description.style.display = "block";
+                button.innerText = "Less Info";
+            } else {
+                description.style.display = "none";
+                button.innerText = "More Info";
+            }
+        }
+    </script>
+</body>
+</html>

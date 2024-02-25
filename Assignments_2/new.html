@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      .container {
+        width: 300px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      }
+      
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Create new Account</h2>
+		<form action="login.html">
+			<label for="name">NAME:</label><br>
+			<input type="text" id="name" name="name"><br>
+			<label for="email">EMAIL:</label><br>
+			<input type="email" id="email" name="email"><br>
+			<label for="password">PASSWORD:</label><br>
+			<input type="password" id="password" name="password"><br>
+			<label for="dob">DATE OF BIRTH:</label><br>
+			<input type="date" id="dob" name="dob"><br>
+			<input type="submit" value="sign up">
+		</form>
+    <p>If you already have an account, please <a href="login.html">login</a>.</p>
+	</div>
+</body>
+</html>
